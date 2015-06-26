@@ -112,6 +112,11 @@ function Game:initControls()
 	G.input:bind('q', 'GO_LEFT')
 	G.input:bind('z', 'GO_UP')
 	G.input:bind('s', 'GO_DOWN')
+
+	-- qwerty support
+	G.input:bind('a', 'GO_LEFT')
+	G.input:bind('w', 'GO_UP')
+
 	-- controller
 	G.input:bind('dpright', 'GO_RIGHT')
 	G.input:bind('dpleft', 'GO_LEFT')
