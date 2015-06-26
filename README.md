@@ -2,13 +2,15 @@ Downfall
 =
 ### Deployment:  
 
-##### Dependency:  
+##### Dependencies:  
+
+On Mac OS X: brew install gnu-sed --with-default-names  
 
 Install [love-release](https://github.com/MisterDA/love-release)
 
 ##### Command:
 	
-	love-release -mw -n Downfall -x resources/ releases/ * 
+	cd src && love-release --config ../install.ini
 	
   
 
