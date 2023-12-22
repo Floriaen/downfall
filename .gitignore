@@ -1,3 +1,4 @@
 /resources
 /releases
 *.iml
+.DS_Store
